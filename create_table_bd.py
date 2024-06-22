@@ -1,5 +1,6 @@
 import mysql.connector
 from mysql.connector import Error
+
 con = mysql.connector.connect(host='localhost', database='teste', user='root', password='123456')
 if con.is_connected():
     print('Conectado')
